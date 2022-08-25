@@ -1,0 +1,123 @@
+Via asesores lleva mas de 20 años
+
+nuestro Gerente de Proyectos Corporativos, Lic. Luis F. Tepe N.
+Peter Ferninand Drucker
+
+Lema: "Innovar es encontrar nuevos o mejorados usos a los recursos de que ya disponemos"
+
+
+----------------**---------
+
+nuestro Gerente General Ing. Roberto A. Villate C.
+
+
+git status -s
+git add .
+git commit -m "algo"
+git push
+
+
+tener lo que esta en gitHub en nuestra pc:
+git pull
+
+subir tags
+git push --tags
+
+
+
+Ramas o branch:
+crear rama: git branch nombre
+
+ir a esa rama o usarla: 
+git checkout nombre que le pusimos.
+
+git branch nos muestra que ramas tenemos.
+
+para unir todo es:
+git merge darrollo 
+
+
+git branch -d desarrollo
+
+
+
+
+git remote add origin http://svn.via-asesores.com:3000/belopezp/TailwindCSS.git
+
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (master)
+$ git checkout -b desarrollo
+Switched to a new branch 'desarrollo'
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git status
+On branch desarrollo
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        LICENSE
+        README.md
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git commit -m "Rama"
+On branch desarrollo
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        LICENSE
+        README.md
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git commit -m "Se agrego los archivos"
+[desarrollo (root-commit) 4f7eed5] Se agrego los archivos
+ 4 files changed, 348 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+ create mode 100644 index.html
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git status
+On branch desarrollo
+nothing to commit, working tree clean
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git remote add origin http://svn.via-asesores.com:3000/Xavier/TailwindCSS.git
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+$ git push -u origin desarrollo
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 3.57 KiB | 3.57 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To http://svn.via-asesores.com:3000/Xavier/TailwindCSS.git
+ * [new branch]      desarrollo -> desarrollo
+branch 'desarrollo' set up to track 'origin/desarrollo'.
+
+josef@DESKTOP-0KVE03Q MINGW64 ~/OneDrive/Escritorio/Practicando-git/tarea (desarrollo)
+
+
+
+
+
